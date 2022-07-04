@@ -1,0 +1,43 @@
+/* .containerCards {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 20px;
+    box-shadow: 0px 0px 10px 2px #cccccca0;
+}
+
+.card img {
+    width: 250px;
+}
+
+.cardInfo {
+    background-color: #05424bee;
+    padding: 10px;
+}
+
+.cardInfo h3 {
+    color: white;
+    margin-bottom: 7px;
+}
+
+.cardInfo h4 {
+    color: white;
+    margin-bottom: 12px;
+}
+
+.details {
+    border: none;
+    padding: 5px 4px;
+    cursor: pointer;
+} */

@@ -1,10 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
 .App {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
+  text-align: center;
 }
-.App {
-	display: flex;
-	align-items: center;
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar-nav li {
+  list-style: none;
+  margin-right: 12px;
+  padding-top: 8px;
+}
+
+.Navigation a:hover{
+  color: #CDBE78;
+}
+
+
+.listaProductos {
+
+    justify-content: center;
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+.losItems {
+  width: 100%;
+  display: flex;
 	flex-direction: column;
+	align-items: center;
+  justify-content: center;
+}
+
+.losItems img {
+  max-height: 18rem;
+}
+
+.itemContainer {
+  display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin: 40px 0 40px 0;
+	gap: 20px;
+  }
+
+.detailText {
+    text-align: justify;
+}
+.theItems {
+  margin: 40px 0 40px 0;
+  width: 100%;
+  display: flex;
+	flex-direction: row;
+	align-items: center;
+  justify-content: center;
+}
+
+.catContain{
+  display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin: 40px 0 40px 0;
+	gap: 20px;
+}
+.items{
+  width: 100%;
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+  justify-content: center;
+}
+
+.items img {
+  max-height: 18rem;
+}
+
+main{
+  width: 100%;
+  overflow: hidden;
+}
+
+footer {
+  background-color: rgba(33,37,41);
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+footer a {
+  color: white
+}
+
+.accordion {
+  color: black;
+}
+
+.me-auto .container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.letraLink {
+  color: white;
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.Spinner {
+  justify-content: center;
+}
+#collasible-nav-dropdown a:hover{
+  color: black;
+}
+
+.dropdown a:hover{
+  color: #CDBE78 !important
+}
+
+.dropdown-menu {
+  background-color: #212529 !important;
+}
+
+.cartCositas img {
+  max-height: 150px;
+}
+
+.botonEliminacion{
+  padding-top: 58px;
+}
+
+.cartCant{
+  padding-top:50px;
+}
+
+.cartTit{
+  padding-top:50px;
 }
